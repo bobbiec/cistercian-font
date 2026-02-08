@@ -9,6 +9,8 @@ And, it's fun to use ligatures to combine characters.
 
 ![Image](cistercian-font-preview.png)(https://bobbiec.github.io/cistercian-font.html)
 
+Learn more in the blog post: [Making a font with 9,999 ligatures to display thirteenth-century monk numerals](https://digitalseams.com/blog/making-a-font-with-9999-ligatures-to-display-thirteenth-century-monk-numerals).
+
 ## Quick start
 
 The pre-built font files are included in `fonts/`. Copy them into your project and add the CSS:
