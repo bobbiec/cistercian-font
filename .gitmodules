@@ -1,0 +1,3 @@
+[submodule "cistercian-source"]
+	path = cistercian-source
+	url = https://github.com/codepo8/cistercian.git

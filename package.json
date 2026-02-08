@@ -1,0 +1,16 @@
+{
+  "name": "cistercian-font",
+  "version": "1.0.0",
+  "description": "A web font that converts numbers (1–9999) to Cistercian numerals using OpenType ligatures",
+  "private": true,
+  "scripts": {
+    "generate": "node src/generate-glyphs.js",
+    "build-font": "python3 src/build-font.py",
+    "build": "npm run generate && npm run build-font",
+    "clean": "rm -rf glyphs metadata fonts/*.ttf fonts/*.woff fonts/*.woff2"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  }
+}
